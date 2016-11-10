@@ -27,3 +27,10 @@
 -	提供计算总分数接口。
 -	提供某题目的正确答案、解题答案接口。
 -	提供项目设置解题答案接口。
+
+
+### 使用方法
+- Linux下直接在终端`git clone git@github.com:embpgp/primary_stu_area_girth_judge.git`,继续键入`make`命令即可,若`g++`未安装则需要自己安装
+- Windows下也可以利用git工具或者直接下载文件解压到目录,将**Makefile**文件中的编译器改成Win下的,或者直接利用IDE打开不需要make工具.在测试文件中的**main.cc**中的清屏命令改为`system("cls")`即可.
+
+- 程序尚未完全达到功能,剩余的三角形和梯形等类也不难实现且容易集成到项目中
